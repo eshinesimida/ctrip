@@ -9,7 +9,7 @@ Created on Sun Jan  5 18:57:23 2020
 """
 Created on Fri Jan  3 17:00:46 2020
 
-@author: eshine
+@author: lenovo
 """
 
 import re
@@ -18,6 +18,10 @@ import json
 import time
 
 
+import pandas as pd
+import pymysql
+
+from lxml import etree
 
 
 head = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0'} 
